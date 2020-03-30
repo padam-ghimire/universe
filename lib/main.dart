@@ -10,7 +10,7 @@ void main(){
       ),
       home: Scaffold(
         appBar:AppBar(
-          title:Text("App title"),
+          title:Text("My Universe"),
           actions: <Widget>[
             Icon(Icons.search),
             Icon(Icons.shopping_cart),
@@ -32,7 +32,7 @@ void main(){
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.person,color: Colors.deepOrange,),
-              title: Text("Account")
+              title: Text("Account",style: TextStyle(fontSize:20.0,fontWeight:FontWeight.bold,color:Colors.green),)
               ),
           ],
         ),
